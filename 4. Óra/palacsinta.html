@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <title>Süssünk palacsintát!</title>
+  <style>
+    body {
+        transition: background-color 0s ease;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+    .dark-mode {
+        background-color: #333;
+        color: #fff;
+    }
+    .dark-mode-toggle {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+</style>
+</head>
+
+<body>
+    <h1>Süssünk palacsintát!</h1>
+  <h2>Eszközök</h2>
+  <ul>
+    <li>Palacsintasütő</li>
+    <li>Tál</li>
+    <li>Keverőeszköz</li>
+      <li>Botmixer</li>
+      <ul>
+        <li>Keverőlapát</li>
+        <li>Habverő</li>
+      </ul>
+    <li>Palacsinta forgató lapát</li>
+    <li>Merőkanál</li>
+  </ul>
+  <h2>Alapanyagok</h2>
+  <ul>
+    <li>liszt</li>
+    <li>tojás</li>
+    <li>olaj</li>
+    <li>tej</li>
+    <li>szóda (elhagyható)</li>
+    <li>só, cokor (ízlés szerint)</li>
+  </ul>
+  <h2>A tészta elkészítése</h2>
+  <p>(A mennyiségek egyén szerint és palacsintatípusonként változnak, etért itt nem adjuk meg részletesen.)</p>
+  <ol style="list-style-type:lower-alpha;">
+    <li>Serpenyő előkészítése:
+      <ul>
+        <li>Kenjük meg naprafogóolajjal a serpenyőt.</li>
+        <li>Az olajjal megkent serpenyőt melegítsük elő.</li>
+      </ul>
+    </li>
+    <li>Öntsünk egy merőkanál palacsintatésztát a serpenyőbe.</li>
+    <li>Oszlassuk szét benne egyenletesen.</li>
+    <li>Ha átsült a tészta alja, akkor fordítsuk meg.</li>
+    <li>Ha átsült a másik oldal, akkor óvatosan csúsztassuk ki a palacsintasütőből.</li>
+    <li>Segítségképpen használjunk palacsintalapátot.</li>
+  </ol>
+  <div class="dark-mode-toggle">
+    <button onclick="toggleDarkMode()">Téma változtatása</button>
+</div>
+
+<script>
+    function toggleDarkMode() {
+        document.body.classList.toggle('dark-mode');
+    }
+</script>
+</body>
+
+</html>

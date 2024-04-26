@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receptek</title>
+    <style>
+        body {
+            transition: background-color 0s ease;
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+        .dark-mode {
+            background-color: #333;
+            color: #fff;
+        }
+        .dark-mode-toggle {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!--<h1>Hello World</h1>-->
+
+    <h2>Kedvenceim</h2>
+    <h3>Sültkrumpli</h3>
+        <h4>Hozzávalók</h4>
+        <ul>
+            <li>krumpli</li>
+            <li>olaj</li>
+        </ul> 
+        <h4>Elkészítés</h4>    
+        <ul>
+            <li>Olaj az edénybe</li>
+            <li>Rakd fel a főzőlapra</li>
+            <li>Krumpli a forró olajba</li>
+            <li>Sózd meg</li>
+            <li>Edd meg</li>
+        </ul>   
+    <H3>Pizza</H3>
+            <h4>Hozzávalók</h4>
+
+            <h5>Feltét</h5>
+
+            <li>pizzaszósz</li>
+            <li>szalámi</li>
+            <li>sajt</li>
+            <li>kukorica</li>
+            <li>paradicsom</li>
+            <li>hagyma</li>
+            <li>oregánó</li>
+            
+        <table>
+            <tr>
+                <h5>Tészta alaphoz</h5>
+            </tr>
+            <tr>
+                <td>liszt</td>
+                <td>1 kg</td>
+            </tr>
+            <tr>
+                <td>tojás</td>
+                <td>3 db</td>
+            </tr>
+            <tr>
+                <td>élesztő</td>
+                <td>1 dkg</td>
+            </tr>
+            <tr>
+                <td>só</td>
+                <td> 1 kávéskanál</td>
+            </tr>
+        </table>
+        <h4>Elkészítés</h4>
+        <ul>
+            <h5>Tészta alaphoz</h5>
+
+            <li>Egy tálba tedd bele a hozzávalókat</li>
+            <li>Keverd össze</li>
+            <li>Hagyd 1 órán át pihenni</li>
+            <li>Hengereld laposra</li>
+
+            <h5>Feltét</h5>
+            <li>Kend meg a kilapított tésztát a pizzaszósszal</li>
+            <li>Ízlés szerint tedd rá a feltéteket</li>
+            <li>Szord meg oregánóval</li>
+            <li>Tedd a 250 °C-os sütőbe 20 percre</li>
+            <li>Szeleteld fel</li>
+            <li>Tedd tányérra</li>
+            <li>Esetleg tégy rá ketchup-ot</li>
+            <li>Vidd ki Lászlónak és Lehelnek</li>
+            <li>Jó étvágyat😊</li>
+        </ul>
+        <div class="dark-mode-toggle">
+            <button onclick="toggleDarkMode()">Téma változtatása</button>
+        </div>
+    
+        <script>
+            function toggleDarkMode() {
+                document.body.classList.toggle('dark-mode');
+            }
+        </script>
+<!---->
+</body>
+</html>
